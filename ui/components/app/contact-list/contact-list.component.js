@@ -28,7 +28,7 @@ export default class ContactList extends PureComponent {
     const { isShowingAllRecent } = this.state;
     const nonContacts = this.props
       .searchForRecents()
-      .filter(({ assetType }) => assetType === EXTERNALLY_OWNED_ACCOUNTS);
+      .filter(({ addressType }) => addressType === EXTERNALLY_OWNED_ACCOUNTS);
 
     const showLoadMore = !isShowingAllRecent && nonContacts.length > 2;
 
@@ -56,7 +56,11 @@ export default class ContactList extends PureComponent {
   renderAddressBook() {
     const unsortedContactsByLetter = this.props
       .searchForContacts()
-      .filter(({ assetType }) => assetType === EXTERNALLY_OWNED_ACCOUNTS)
+      .filter(
+        ({ addressType }) =>
+          addressType === EXTERNALLY_OWNED_ACCOUNTS ||
+          addressType === undefined,
+      )
       .reduce((obj, contact) => {
         const firstLetter = contact.name[0].toUpperCase();
         return {
