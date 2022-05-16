@@ -523,7 +523,6 @@ const NetworksForm = ({
         onConfirm: () => {
           resetForm();
           dispatch(setSelectedSettingsRpcUrl(''));
-          history.push(NETWORKS_ROUTE);
         },
       }),
     );
