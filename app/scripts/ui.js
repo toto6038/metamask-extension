@@ -6,6 +6,7 @@ import 'react-devtools';
 
 import PortStream from 'extension-port-stream';
 import browser from 'webextension-polyfill';
+import duplexify from 'duplexify';
 
 import Eth from 'ethjs';
 import EthQuery from 'eth-query';
@@ -37,7 +38,8 @@ async function start() {
 
   // setup stream to background
   let extensionPort = browser.runtime.connect({ name: windowType });
-  let connectionStream = new PortStream(extensionPort);
+  let extensionStream = new PortStream(extensionPort);
+  let connectionStream = duplexify.obj(extensionStream, extensionStream);
 
   const activeTab = await queryCurrentActiveTab(windowType);
 
@@ -47,6 +49,8 @@ async function start() {
     }
   };
   const disconnectListener = () => {
+    connectionStream.setReadable(null);
+    connectionStream.setWritable(null);
     extensionPort.onMessage.removeListener(messageListener);
     extensionPort.onDisconnect.removeListener(disconnectListener);
   };
@@ -70,7 +74,10 @@ async function start() {
     // todo: change check below to do app init whenever port is closed
     if (message.name === 'APP_INIT') {
       extensionPort = browser.runtime.connect({ name: windowType });
-      connectionStream = new PortStream(extensionPort);
+      extensionStream = new PortStream(extensionPort);
+      connectionStream = duplexify.obj(extensionStream, extensionStream);
+      // connectionStream.setWritable(extensionStream);
+      // connectionStream.setReadable(extensionStream);
       extensionPort.onMessage.addListener(messageListener);
       extensionPort.onDisconnect.addListener(disconnectListener);
     }
