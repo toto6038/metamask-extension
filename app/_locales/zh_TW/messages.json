@@ -54,7 +54,7 @@
     "message": "數量"
   },
   "appDescription": {
-    "message": "以太坊瀏覽器擴充插件",
+    "message": "乙太坊瀏覽器擴充套件",
     "description": "The description of the application"
   },
   "appName": {
@@ -82,7 +82,7 @@
     "message": "資產"
   },
   "attemptToCancel": {
-    "message": "嘗試取消?"
+    "message": "嘗試取消？"
   },
   "attemptToCancelDescription": {
     "message": "送出取消並不保證您的交易一定會被取消。若取消成功，將會收取上方顯示交易費用"
@@ -224,7 +224,7 @@
     "message": "複製到剪貼簿"
   },
   "copyPrivateKey": {
-    "message": "這是您的私鑰（點擊複製）"
+    "message": "這是您的私鑰（按一下來複製）"
   },
   "copyToClipboard": {
     "message": "複製到剪貼簿"
@@ -302,7 +302,7 @@
     "message": "編輯聯絡資訊"
   },
   "endOfFlowMessage1": {
-    "message": "你通過測試了—安全存放助記詞，這是你的責任！"
+    "message": "你通過測試了—安全存放助憶詞，這是你的責任！"
   },
   "endOfFlowMessage10": {
     "message": "都完成了"
@@ -314,22 +314,22 @@
     "message": "在多處儲存備份。"
   },
   "endOfFlowMessage4": {
-    "message": "不要分享此助記祠給任何人"
+    "message": "不要分享此助憶詞給任何人"
   },
   "endOfFlowMessage5": {
-    "message": "小心網路釣魚！MetaMask 永遠不會主動詢問你的助記詞。"
+    "message": "小心網路釣魚！MetaMask 永遠不會主動詢問你的助憶詞。"
   },
   "endOfFlowMessage6": {
-    "message": "如你需要再次備份助記詞，可至設定 -> 安全。"
+    "message": "如你需要再次備份助憶詞，可至設定 -> 安全。"
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask 無法還原你的助記詞。暸解更多"
+    "message": "MetaMask 無法還原你的助憶詞。暸解更多"
   },
   "endOfFlowMessage9": {
     "message": "深入瞭解。"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "現有網路中找不到 ENS 名稱。嘗試轉換到主要以太坊網路。"
+    "message": "現有網路中找不到 ENS 名稱。嘗試轉換到主要乙太坊網路。"
   },
   "ensRegistrationError": {
     "message": "ENS 名稱註冊錯誤"
@@ -344,7 +344,7 @@
     "message": "預估處理時間"
   },
   "ethereumPublicAddress": {
-    "message": "以太坊公開位址"
+    "message": "乙太坊公開位址"
   },
   "etherscanView": {
     "message": "在 Etherscan 上查看帳戶"
@@ -366,7 +366,7 @@
     "description": "Exchange type"
   },
   "fileImportFail": {
-    "message": "檔案匯入失敗？點擊這裡！",
+    "message": "檔案匯入失敗？點擊這裡",
     "description": "Helps user import their account from a JSON file"
   },
   "forgetDevice": {
@@ -403,10 +403,10 @@
     "message": "一般"
   },
   "getEther": {
-    "message": "取得以太幣"
+    "message": "取得乙太幣"
   },
   "getEtherFromFaucet": {
-    "message": "從水管取得 $1 以太幣。",
+    "message": "從 faucet 取得 $1 乙太幣。",
     "description": "Displays network name for Ether faucet"
   },
   "getStarted": {
@@ -534,7 +534,7 @@
     "message": "鎖定"
   },
   "mainnet": {
-    "message": "以太坊 主網路"
+    "message": "乙太坊 主網路"
   },
   "max": {
     "message": "最大值"
@@ -549,7 +549,7 @@
     "message": "訊息"
   },
   "metamaskDescription": {
-    "message": "MetaMask 是以太坊安全身份識別金庫"
+    "message": "MetaMask 是乙太坊安全身份識別金庫"
   },
   "metamaskVersion": {
     "message": "MetaMask 版本"
@@ -565,7 +565,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "不能送出負值的以太幣"
+    "message": "不能送出負值的乙太幣"
   },
   "networkName": {
     "message": "網路名稱"
@@ -596,7 +596,7 @@
     "message": "新密碼（至少8個字元）"
   },
   "newToMetaMask": {
-    "message": "新來到 MetaMask？"
+    "message": "MetaMask 新用戶？"
   },
   "newTotal": {
     "message": "總費用"
@@ -611,7 +611,7 @@
     "message": "此 ENS 尚未指定位址。"
   },
   "noAlreadyHaveSeed": {
-    "message": "不，我已經有助記詞"
+    "message": "不，我已經有助憶詞"
   },
   "noConversionRateAvailable": {
     "message": "尚未有匯率比較值"
@@ -620,7 +620,7 @@
     "message": "尚未有交易"
   },
   "noWebcamFound": {
-    "message": "無法搜尋到攝影鏡頭裝置。請再試一次"
+    "message": "無法偵測到攝影鏡頭裝置。請再試一次"
   },
   "noWebcamFoundTitle": {
     "message": "找不到攝影鏡頭"
@@ -669,10 +669,10 @@
     "message": "主要顯示"
   },
   "primaryCurrencySettingDescription": {
-    "message": "選擇使用以太幣(ETH)或是法定貨幣(例如：美金)為主要錢幣顯示單位"
+    "message": "選擇使用乙太幣(ETH)或是法定貨幣（例如：美金）為主要錢幣顯示單位"
   },
   "privacyMsg": {
-    "message": "隱私政策"
+    "message": "隱私權政策"
   },
   "privateKey": {
     "message": "私鑰",
@@ -763,10 +763,10 @@
     "message": "儲存"
   },
   "saveAsCsvFile": {
-    "message": "儲存為CSV格式檔案"
+    "message": "儲存為 CSV 格式檔案"
   },
   "scanInstructions": {
-    "message": "請將 QR code 放在攝影鏡頭前面"
+    "message": "請將 QR Code 放在攝影鏡頭前面"
   },
   "scanQrCode": {
     "message": "掃描 QR Code"
@@ -784,7 +784,7 @@
     "message": "助憶詞將可協助您用更簡單的方式備份帳戶資訊。"
   },
   "secretBackupPhraseWarning": {
-    "message": "警告: 絕對不要洩漏您的助憶詞。任何人只要得知助憶詞代表他可以竊取您所有的以太幣和代幣。"
+    "message": "警告: 絕對不要洩漏您的助憶詞。任何人只要得知助憶詞代表他可以竊取您所有的乙太幣和代幣。"
   },
   "securityAndPrivacy": {
     "message": "安全＆隱私"
@@ -826,16 +826,16 @@
     "message": "在交易時顯示可微調 Gas 價格以及 Gas 上限的功能"
   },
   "showFiatConversionInTestnets": {
-    "message": "在測試網上顯示匯率"
+    "message": "在測試網路上顯示匯率"
   },
   "showFiatConversionInTestnetsDescription": {
-    "message": "選擇此來在測試網上顯示法定貨幣匯率"
+    "message": "選擇此來在測試網路上顯示法定貨幣匯率"
   },
   "showHexData": {
-    "message": "顯示16進位資料"
+    "message": "顯示 16 進位資料"
   },
   "showHexDataDescription": {
-    "message": "在交易時顯示16進位資料"
+    "message": "在交易時顯示 16 進位資料"
   },
   "showPrivateKeys": {
     "message": "顯示私鑰"
@@ -847,7 +847,7 @@
     "message": "簽署"
   },
   "signNotice": {
-    "message": "簽署此訊息可能會產生危險地副作用。 \n只從您完全信任的網站上簽署。這種危險的方法，將在未來的版本中被移除。"
+    "message": "簽署此訊息可能會產生危險的副作用。 \n只從您完全信任的網站上簽署。這種危險的方法，將在未來的版本中被移除。"
   },
   "signatureRequest": {
     "message": "請求簽署"
@@ -871,7 +871,7 @@
     "message": "加速這筆交易"
   },
   "stateLogError": {
-    "message": "在取得狀態紀錄時發生錯誤."
+    "message": "在取得狀態紀錄時發生錯誤。"
   },
   "stateLogs": {
     "message": "狀態紀錄"
@@ -880,7 +880,7 @@
     "message": "狀態紀錄包含您的公開帳戶位址和已傳送的交易資訊"
   },
   "storePhrase": {
-    "message": "您可以用密碼管理系統例如 1Password 等軟體儲存助憶詞。"
+    "message": "您可以用密碼管理系統，例如：1Password 等軟體儲存助憶詞。"
   },
   "submitted": {
     "message": "已送出"
@@ -895,37 +895,37 @@
     "message": "符號"
   },
   "symbolBetweenZeroTwelve": {
-    "message": "符號不得超過11個字符。"
+    "message": "符號不得超過 11 個字元。"
   },
   "syncWithMobile": {
-    "message": "和移動裝置同步"
+    "message": "和行動裝置同步"
   },
   "syncWithMobileBeCareful": {
-    "message": "掃描代碼時確保沒有其他人在看你的螢幕"
+    "message": "掃描代碼時確保沒有其他人窺視您的螢幕"
   },
   "syncWithMobileComplete": {
-    "message": "你的資料已成功同步。開始活用 MetaMask 移動 app！"
+    "message": "你的資料已成功同步。開始活用 MetaMask 行動 App！"
   },
   "syncWithMobileDesc": {
-    "message": "你可以用移動裝置同步帳號與資訊。開啟 MetaMask 移動 app，至「設定」並點擊「自瀏覽器擴充功能同步」"
+    "message": "你可以用行動裝置同步帳號與資訊。開啟 MetaMask 行動 App，至「設定」並點選「自瀏覽器擴充功能同步」"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "如你是第一次開啟 MetaMask 移動 app，只要跟著手機上的指示操作即可。"
+    "message": "若您是第一次開啟 MetaMask 行動 App，只要跟著手機上的指示操作即可。"
   },
   "syncWithMobileScanThisCode": {
-    "message": "用你的 MetaMask 移動 app 掃描此代碼"
+    "message": "用您的 MetaMask 行動 App 掃描此代碼"
   },
   "syncWithMobileTitle": {
-    "message": "和移動裝置同步"
+    "message": "和行動裝置同步"
   },
   "terms": {
     "message": "使用條款"
   },
   "testFaucet": {
-    "message": "測試水管"
+    "message": "測試 facuet"
   },
   "thisWillCreate": {
-    "message": "這將創建新的錢包與助記詞"
+    "message": "這將建立新的錢包與助憶詞"
   },
   "tips": {
     "message": "提示"
@@ -940,7 +940,7 @@
     "message": "已加入過此代幣。"
   },
   "tokenContractAddress": {
-    "message": "代幣合同位址"
+    "message": "代幣合約位址"
   },
   "tokenSymbol": {
     "message": "代幣代號"
@@ -1025,7 +1025,7 @@
     "message": "未知私有網路"
   },
   "unknownQrCode": {
-    "message": "錯誤：無法辨識 QR code"
+    "message": "錯誤：無法辨識 QR Code"
   },
   "unlock": {
     "message": "解鎖"
@@ -1037,10 +1037,10 @@
     "message": "更新時間 $1"
   },
   "urlErrorMsg": {
-    "message": "URIs 需要加入適當的 HTTP/HTTPS 前綴字"
+    "message": "URIs 需要加入適當的 HTTP/HTTPS 前置碼"
   },
   "usedByClients": {
-    "message": "可用於各種不同的客戶端"
+    "message": "可用於各種不同的用戶端"
   },
   "userName": {
     "message": "使用者名稱"
@@ -1058,7 +1058,7 @@
     "message": "歡迎來到 MetaMask"
   },
   "welcomeBack": {
-    "message": "歡迎回來!"
+    "message": "歡迎回來！"
   },
   "writePhrase": {
     "message": "將助憶詞寫在紙上，並保存在安全的場所。若想要更安全，將助憶詞分別寫在不同紙張上並存放在不同的地方。"
@@ -1067,7 +1067,7 @@
     "message": "了解，試試看"
   },
   "youNeedToAllowCameraAccess": {
-    "message": "需要准許存取攝影鏡頭才能啟用此功能"
+    "message": "需要允許存取攝影鏡頭才能啟用此功能"
   },
   "youSign": {
     "message": "正在簽署"
